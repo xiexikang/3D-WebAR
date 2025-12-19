@@ -1,3 +1,13 @@
+# 计划
+
+## 目标
+- 用中文重写 `README.md`，准确介绍 WebAR-demo 的功能、技术栈、运行与构建方法、模块结构与使用指南。
+
+## 变更项
+- 覆盖现有 `README.md`，替换为面向本项目的中文文档。
+
+## 新版 README.md 内容（拟写）
+
 # WebAR 基础平台（React + TypeScript + Vite）
 
 基于 React、Three.js 与 WebXR 的 WebAR 开发模板与演示。集成 3D 场景渲染、AR 会话管理、模型加载、交互系统（触摸/手势/语音/控制器）、标记识别，以及性能监控与调试工具。
@@ -14,7 +24,7 @@
 - ESLint + TypeScript ESLint
 
 ## 快速开始
-- 前置条件：已安装 `Node.js` 与 `pnpm`
+- 依赖：已安装 `Node.js` 与 `pnpm`
 - 安装依赖：
   - `pnpm install`
 - 开发启动：
@@ -29,7 +39,7 @@
   - 类型检查：`pnpm check`
 
 ## 目录结构（节选）
-- `index.html`：应用入口（`/src/main.tsx` 挂载）
+- `index.html`：应用入口（`src/main.tsx` 脚本挂载）
 - `src/App.tsx`：路由配置（`/`、`/webar`、占位页）
 - `src/pages/Home.tsx`：首页介绍与导航
 - `src/pages/WebARDemo.tsx`：WebAR 演示页面（自动启动会话）
@@ -64,7 +74,7 @@
 ## 使用指南
 - 浏览器要求与权限
   - 需要支持 WebXR 的设备与浏览器，并在安全上下文（HTTPS）下访问。
-  - 无法启动 WebXR 时将自动降级为模拟模式（引擎内置降级逻辑）。
+  - 无法启动 WebXR 时将自动降级为模拟模式（见引擎的降级逻辑）。
   - 需允许摄像头访问以进行标记/图像检测。
 - 进入演示
   - 启动开发服务后访问 `/webar`，页面会自动启动或提供按钮启动 AR 会话。
@@ -80,7 +90,7 @@
 - 样式
   - 使用 Tailwind CSS（见 `src/index.css`）。
 - Vite 配置
-  - 端口与 HMR：`vite.config.ts`，端口 `2077`。
+  - 端口与 HMR：`vite.config.ts:1`，端口 `2077`。
   - 路径别名：`tsconfig.json` 下 `@/*` 指向 `src/*`。
 
 ## 路由
