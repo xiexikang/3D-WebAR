@@ -94,8 +94,9 @@
 - 摄像头无法访问
   - 请检查浏览器权限设置，并确保来源为安全上下文。
 
-## 许可证
-- 本仓库未显式声明开源许可证；如需开放源代码，请补充 License 文件。
+## 许可证 License
+
+This project is licensed under the MIT License.
 
 ## 致谢
 - Three.js、React Three Fiber、Vite 与相关开源生态。
