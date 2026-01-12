@@ -10,7 +10,7 @@
 - ESLint + TypeScript ESLint
 
 ## 预览地址
-https://3d-webar.vercel.app/webar
+https://3d-webar.vercel.app/
 
 ## 博客地址
 https://blog.csdn.net/weixin_42211816/article/details/156084421
