@@ -2,16 +2,18 @@
 
 基于 React、Three.js 与 WebXR 的 WebAR 开发模板与演示。集成 3D 场景渲染、AR 会话管理、模型加载、交互系统（触摸/手势/语音/控制器）、标记识别，以及性能监控与调试工具。
 
-- 演示入口：`/webar`
-- 主页：`/`
-- 路由定义：`src/App.tsx:1`
-
 ## 技术栈
 - React 18、TypeScript、Vite 6
 - Three.js、React Three Fiber、@react-three/drei
 - React Router（`react-router-dom`）
 - Tailwind CSS
 - ESLint + TypeScript ESLint
+
+## 预览地址
+https://3d-webar.vercel.app/webar
+
+## 博客地址
+https://blog.csdn.net/weixin_42211816/article/details/156084421
 
 ## 快速开始
 - 前置条件：已安装 `Node.js` 与 `pnpm`
